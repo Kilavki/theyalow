@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('PTSans-NarrowBold.woff2') format('woff2'),
+			url('PTSans-NarrowBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Regular.woff2') format('woff2'),
+			url('OpenSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe WP';
+	src: url('SegoeWP-Light.woff2') format('woff2'),
+			url('SegoeWP-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe WP';
+	src: url('SegoeWP.woff2') format('woff2'),
+			url('SegoeWP.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('PTSans-Regular.woff2') format('woff2'),
+			url('PTSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Asap';
+	src: url('Asap-Regular.woff2') format('woff2'),
+			url('Asap-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
