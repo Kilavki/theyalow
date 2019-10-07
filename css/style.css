@@ -37,6 +37,12 @@ body {
 	background-size: cover;
 }
 
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 40px;
+}
 
 .logo-container {
 	display: flex;
@@ -49,7 +55,18 @@ body {
 	font-family: '';
 	font-size: 41px;
 	font-style: italic;
+	font-weight: normal;
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+.menu {
+	display: flex;
+	width: 451px;
+}
+
+.menu-item {
+	height: 41px;
+	background-color: #f5c506;
 }
