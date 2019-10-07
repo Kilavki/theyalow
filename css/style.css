@@ -24,3 +24,15 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
+
+
+
+/* hero */
+.hero {
+	width: 100%;
+	height: 566px;
+	background-image: url("../img/bg/bg-heder.jpg");
+	background-position: center center;
+	background-size: cover;
+}
