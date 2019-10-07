@@ -11,7 +11,7 @@ body {
 }
 
 body {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans' sans-serif;
 	font-size: 100%;
 	color: #696969;
 }
@@ -35,4 +35,21 @@ body {
 	background-image: url("../img/bg/bg-heder.jpg");
 	background-position: center center;
 	background-size: cover;
+}
+
+
+.logo-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.logo-text {
+	margin-left: 10px;
+	font-family: '';
+	font-size: 41px;
+	font-style: italic;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #fff;
 }
