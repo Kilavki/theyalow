@@ -51,22 +51,62 @@ body {
 }
 
 .logo-text {
-	margin-left: 10px;
+	margin-left: 6px;
+	margin-top: 6px;
 	font-family: '';
 	font-size: 41px;
 	font-style: italic;
 	font-weight: normal;
-	letter-spacing: 0.01em;
+	letter-spacing: -0.01em;
 	text-transform: uppercase;
 	color: #fff;
 }
 
-.menu {
-	display: flex;
-	width: 451px;
+.main-menu {
+	width: 453px;
+	height: 41px;
+	margin-top: 38px; 
+	background:  #f5c506;
+	box-shadow: -4px -5px 0 0 rgba(245, 197, 6, 0.27),
+	 -8px -8px 0 0 rgba(245, 197, 6, 0.27);
 }
 
+
 .menu-item {
-	height: 41px;
-	background-color: #f5c506;
+	display: inline-block;
+	padding: 12px 0;
+	padding-left: 42px;
+	list-style-type: none;
+	border-right: 1px solid #9b7d08;
+	
+}
+
+.menu-link {
+	font-family: 'Segoe WP';
+	font-weight: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #9b7d08;
+}
+
+.menu-item:nth-child(1) {
+	padding-left: 70px;
+	padding-right: 21px;
+	background-position: left 40px center;
+	background-repeat: no-repeat;
+	background-image: url(../img/icons/about.svg);
+}
+.menu-item:nth-child(2) {
+	padding-left: 33px;
+	padding-right: 14px;
+	background-position: left 8px center;
+	background-repeat: no-repeat;
+	background-image: url(../img/icons/services.svg);
+}
+.menu-item:nth-child(3) {
+	padding-left: 44px;
+	border-right: none;
+	background-position: left 12px center;
+	background-repeat: no-repeat;
+	background-image: url(../img/icons/contact.svg);
 }
